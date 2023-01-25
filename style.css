@@ -1,0 +1,37 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background-color: #f5f1f1;
+}
+
+header{
+    background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
+    background-size: cover;
+    color: #ffffff;
+}
+
+a{
+    color:lightseagreen;
+    text-decoration: none;
+}
+
+a:hover{
+    color: green;
+}
+
+h1{
+    font-family: Geneva;
+}
+
+
+h3 {
+    font-family: Geneva;
+}
+
+
+
+article {
+    background-image: linear-gradient(#f5f1f1, #cdc7c7);
+}
