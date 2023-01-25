@@ -1,37 +1,62 @@
+/* ALL */
 * {
     font-family: Arial;
 }
+/* Body Block */
 
 body {
     background-color: #f5f1f1;
 }
 
+/* Header blocks of Code */
+
 header{
     background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
     background-size: cover;
     color: #ffffff;
-}
-
-a{
-    color:lightseagreen;
-    text-decoration: none;
-}
-
-a:hover{
-    color: green;
+    text-shadow: 1em black;
+    border-radius: 0.75em;
+    padding: 0.75em;
 }
 
 h1{
     font-family: Geneva;
 }
 
-
 h3 {
     font-family: Geneva;
 }
 
+.subheading{
+    border-bottom: solid;
+    border-color: cdc7c7;
+}
 
+/* a blocks are for link style */
+a{
+    color:lightseagreen;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+}
 
+/* Gradient used for both Article */
 article {
-    background-image: linear-gradient(#f5f1f1, #cdc7c7);
+    background-image: linear-gradient(#e7e3e3, #c4bfbf);
+    border-radius: 0.75em;
+    padding: 0.75em;
+    margin-bottom: 0.5em;
+    box-shadow: 1em black;
+}
+
+/* IMAGE BLOCKS */
+
+img {
+    display: block;
+    height: 20%;
+    border-style: hidden;
+    border-radius: 0.75em;
+    margin-bottom: 0.7em;
+
 }
